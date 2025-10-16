@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Novedades - Cafetería Zeppelin</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css"> <!-- Tu CSS personalizado -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="led.jpg">
+
+    <!-- Estilos personalizados dentro del HTML -->
+    <style>
+        body {
+            background-color: #f8f9fa; /* gris muy claro */
+        }
+
+        header {
+            background-image: linear-gradient(to right, #000000, #434343); /* gradiente oscuro */
+        }
+
+        .card {
+            border: none;
+            border-radius: 15px;
+        }
+
+        .card-body {
+            background-color: #ffffff;
+            border-radius: 15px;
+        }
+
+        .card-title {
+            color: #5a189a;
+        }
+
+        img {
+            border-radius: 10px;
+            max-height: 300px;
+            object-fit: cover;
+        }
+
+        footer {
+            margin-top: 60px;
+        }
+
+        h2 {
+            color: #3f3f3f;
+        }
+
+        .btn-primary {
+            background-color: #5a189a;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #3c096c;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="text-white text-center py-5">
+        <h1 class="display-4">📰 Novedades de Cafetería Zeppelin</h1>
+        <p class="lead">Descubre lo más reciente de nuestra cafetería: productos, eventos y mucho más.</p>
+    </header>
+
+    <!-- BOTÓN PARA VOLVER A LA PÁGINA PRINCIPAL -->
+    <div class="text-center my-4">
+        <a href="index.html" class="btn btn-primary">← Volver a la página principal</a>
+    </div>
+
+    <!-- SECCIÓN DE NOVEDADES -->
+    <div class="container my-5">
+        <h2 class="mb-4 text-center">Últimas Noticias y Productos</h2>
+
+        <!-- NOVEDAD 1 -->
+        <div class="card mb-5 shadow-lg">
+            <div class="card-body">
+                <h4 class="card-title"> ¡Nuevo Latte "Stairway to Heaven"!</h4>
+                <p class="card-text">Una mezcla especial de café con canela y vainilla inspirada en uno de los himnos más icónicos de Led Zeppelin. ¡Tienes que probarlo!</p>
+                <!-- Imagen -->
+                <img src="para.jpg" alt="Latte Stairway to Heaven" class="img-fluid mt-3" />
+            </div>
+        </div>
+
+        <!-- NOVEDAD 2 -->
+        <div class="card mb-5 shadow-lg">
+            <div class="card-body">
+                <h4 class="card-title"> Evento acústico en vivo este sábado</h4>
+                <p class="card-text">Ven a disfrutar de un show acústico en vivo mientras saboreas tu bebida favorita. Música inspirada en el rock clásico.</p>
+                <!-- Imagen -->
+                <img src="para.jpg" alt="Evento acústico" class="img-fluid mt-3" />
+            </div>
+        </div>
+
+        <!-- NOVEDAD 3 -->
+        <div class="card mb-5 shadow-lg">
+            <div class="card-body">
+                <h4 class="card-title">🆕 Nueva presentación: Cold Brew Zeppelin</h4>
+                <p class="card-text">Nuestro nuevo cold brew tiene una personalidad fuerte, como la banda que nos inspira. Disponible solo por tiempo limitado.</p>
+                <!-- Imagen -->
+                <img src="sh sh.jpg" alt="Cold Brew Zeppelin" class="img-fluid mt-3" />
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p class="mb-2">Síguenos para más actualizaciones y buena música.</p>
+        <a href="index.html" class="btn btn-outline-light btn-sm mx-1">Inicio</a>
+        <a href="blog" class="btn btn-outline-light btn-sm mx-1">Sobre Nosotros</a>
+        <a href="https://www.ledzeppelin.com/" class="btn btn-outline-light btn-sm mx-1" target="_blank">Sitio Oficial de Led Zeppelin</a>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
